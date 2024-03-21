@@ -9,3 +9,7 @@ git commit -m "<Comment>"
 git remote add origin <link>
 git remote -v
 git push origin main
+git fetch origin
+git merge --allow-unrelated-histories origin/main
+git commit -m "Merge unrelated histories"
+git push origin main
